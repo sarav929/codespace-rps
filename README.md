@@ -1,1 +1,1 @@
-# codespace-rps
+# Rock Paper Scissors - CodeSpace Project
