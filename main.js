@@ -14,7 +14,7 @@ function getComputerChoice(array) {
 
 function checkWin(player1, player2) {
   if (player1 == player2) {
-    return "It's a tie!";
+    return "😶 It's a tie! 😶";
   }
 
   if (player1 == 'rock') {
