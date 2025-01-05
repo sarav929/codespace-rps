@@ -16,13 +16,26 @@ body {
     font-size: large;
 }
 
-p {
+.player {
     margin: 0;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
+
+.game {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 #your-choice, #computer-choice {
-    text-transform: capitalize;
     font-weight: bold;
+    height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
 #result {
@@ -40,7 +53,9 @@ button {
 }
 
 .btns-container {
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
 }
 
