@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 2rem;
+}
+
+#result {
+    font-weight: bold;
+    font-size: large;
+}
+
+p {
+    margin: 0;
+}
+
+#your-choice, #computer-choice {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#result {
+    font-size: 2rem;
+}
+
+button {
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
+
+.btns-container {
+    display: flex;
+    gap: 1rem;
+}
+
+button:hover {
+    filter: invert(100);
+}
